@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F66F3E1F28907200761538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F66F3D1F28907200761538 /* main.m */; };
+		01F66F411F28907200761538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F66F401F28907200761538 /* AppDelegate.m */; };
+		01F66F441F28907200761538 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F66F431F28907200761538 /* ViewController.m */; };
+		01F66F471F28907200761538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F66F451F28907200761538 /* Main.storyboard */; };
+		01F66F491F28907200761538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F66F481F28907200761538 /* Assets.xcassets */; };
+		01F66F4C1F28907200761538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F66F4A1F28907200761538 /* LaunchScreen.storyboard */; };
+		01FCE4BD1F28977C00DA7E78 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FCE4BC1F28977C00DA7E78 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F66F391F28907200761538 /* Clock4Blind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock4Blind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F66F3D1F28907200761538 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01F66F3F1F28907200761538 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01F66F401F28907200761538 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01F66F421F28907200761538 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01F66F431F28907200761538 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01F66F461F28907200761538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01F66F481F28907200761538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01F66F4B1F28907200761538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01F66F4D1F28907200761538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FCE4BC1F28977C00DA7E78 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F66F361F28907200761538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FCE4BD1F28977C00DA7E78 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F66F301F28907200761538 = {
+			isa = PBXGroup;
+			children = (
+				01F66F3B1F28907200761538 /* Clock4Blind */,
+				01F66F3A1F28907200761538 /* Products */,
+				01FCE4BB1F28977B00DA7E78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01F66F3A1F28907200761538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F66F391F28907200761538 /* Clock4Blind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F66F3B1F28907200761538 /* Clock4Blind */ = {
+			isa = PBXGroup;
+			children = (
+				01F66F3F1F28907200761538 /* AppDelegate.h */,
+				01F66F401F28907200761538 /* AppDelegate.m */,
+				01F66F421F28907200761538 /* ViewController.h */,
+				01F66F431F28907200761538 /* ViewController.m */,
+				01F66F451F28907200761538 /* Main.storyboard */,
+				01F66F481F28907200761538 /* Assets.xcassets */,
+				01F66F4A1F28907200761538 /* LaunchScreen.storyboard */,
+				01F66F4D1F28907200761538 /* Info.plist */,
+				01F66F3C1F28907200761538 /* Supporting Files */,
+			);
+			path = Clock4Blind;
+			sourceTree = "<group>";
+		};
+		01F66F3C1F28907200761538 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01F66F3D1F28907200761538 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01FCE4BB1F28977B00DA7E78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01FCE4BC1F28977C00DA7E78 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F66F381F28907200761538 /* Clock4Blind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F66F501F28907200761538 /* Build configuration list for PBXNativeTarget "Clock4Blind" */;
+			buildPhases = (
+				01F66F351F28907200761538 /* Sources */,
+				01F66F361F28907200761538 /* Frameworks */,
+				01F66F371F28907200761538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock4Blind;
+			productName = Clock4Blind;
+			productReference = 01F66F391F28907200761538 /* Clock4Blind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F66F311F28907200761538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nikolay Abkairov";
+				TargetAttributes = {
+					01F66F381F28907200761538 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L734DJCF4M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01F66F341F28907200761538 /* Build configuration list for PBXProject "Clock4Blind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F66F301F28907200761538;
+			productRefGroup = 01F66F3A1F28907200761538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F66F381F28907200761538 /* Clock4Blind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F66F371F28907200761538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F66F4C1F28907200761538 /* LaunchScreen.storyboard in Resources */,
+				01F66F491F28907200761538 /* Assets.xcassets in Resources */,
+				01F66F471F28907200761538 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F66F351F28907200761538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F66F441F28907200761538 /* ViewController.m in Sources */,
+				01F66F411F28907200761538 /* AppDelegate.m in Sources */,
+				01F66F3E1F28907200761538 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01F66F451F28907200761538 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F66F461F28907200761538 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01F66F4A1F28907200761538 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F66F4B1F28907200761538 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01F66F4E1F28907200761538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F66F4F1F28907200761538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01F66F511F28907200761538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L734DJCF4M;
+				INFOPLIST_FILE = Clock4Blind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunScool.Clock4Blind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01F66F521F28907200761538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L734DJCF4M;
+				INFOPLIST_FILE = Clock4Blind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunScool.Clock4Blind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F66F341F28907200761538 /* Build configuration list for PBXProject "Clock4Blind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F66F4E1F28907200761538 /* Debug */,
+				01F66F4F1F28907200761538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F66F501F28907200761538 /* Build configuration list for PBXNativeTarget "Clock4Blind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F66F511F28907200761538 /* Debug */,
+				01F66F521F28907200761538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01F66F311F28907200761538 /* Project object */;
+}
