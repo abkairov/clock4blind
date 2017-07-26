@@ -2,7 +2,7 @@
 
 This is a very primitive iOS app that reads current date and time when screen is touched anywhere on the phone.
 I built it for my grandma who is almost blind and can't read text.
-It works best with screen timeout set to NEVER and the guided access enabled, so that it stays always on top.
+It works best with screen timeout set to NEVER and the guided access enabled, so that it stays always on top. You can run this on pretty old devices like iPhone 4 - it needs iOS 7.0.
 
 It reads current date with the current locale voice.
 It reads full date once touched, and then, if touched within a minute, it reads only time.
